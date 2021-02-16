@@ -128,7 +128,7 @@
         "ContainerDefinitions" : [ 
           {
             "Name": "jenkins",
-            "Image": "adeelogre/todobackend:main.jenkins-Todobackend-19",
+            "Image": "adeelogre/docker-jenkins:latest",
             "Memory": 500,
             "PortMappings": [ { "ContainerPort": 8080, "HostPort": 8080 } ],
             "MountPoints": [
