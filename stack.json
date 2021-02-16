@@ -19,7 +19,7 @@
     "EC2Instance": {
       "Type": "AWS::EC2::Instance",
       "Properties": {
-        "ImageId": "ami-0b1e455c3dd6f4b3f",
+        "ImageId": "ami-0e8d6636c8bfe6bb9",
         "InstanceType": "t2.micro",
         "SubnetId": { "Ref": "SubnetId" },
         "KeyName": { "Ref": "KeyName" },
@@ -82,8 +82,7 @@
         },
         "Path": "/",
         "ManagedPolicyArns": [ 
-          "arn:aws:iam::aws:policy/service-role/AmazonEC2ContainerServiceforEC2Role",
-          "arn:aws:iam::aws:policy/AdministratorAccess"
+          "arn:aws:iam::aws:policy/service-role/AmazonEC2ContainerServiceforEC2Role"
         ]
       }
     },
