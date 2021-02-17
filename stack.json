@@ -20,7 +20,7 @@
       "Type": "AWS::EC2::Instance",
       "Properties": {
         "ImageId": "ami-0e8d6636c8bfe6bb9",
-        "InstanceType": "t2.micro",
+        "InstanceType": "t2.small",
         "SubnetId": { "Ref": "SubnetId" },
         "KeyName": { "Ref": "KeyName" },
         "SecurityGroupIds": [ { "Ref": "EC2InstanceSecurityGroup" } ],
